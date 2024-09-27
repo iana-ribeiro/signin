@@ -1,0 +1,107 @@
+.container {
+  width: 480px;
+  border-radius: 4px;
+  background: rgba(32, 41, 90, 0.16);
+  backdrop-filter: blur(12.5px);
+  padding: 40px;
+}
+
+.container h1 {
+  color: #f8fafc;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.container .input label {
+  display: block;
+  color: #f8fafc;
+  margin-bottom: 8px;
+}
+
+.container .input input {
+  width: 100%;
+  height: 48px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #030617;
+  background-color: #f8fafc;
+  font-size: 14px;
+  outline: none;
+  border: 1px solid #ccd5e1;
+  border-radius: 4px;
+}
+
+.container .input input::placeholder {
+  color: rgba(3, 6, 23, 0.4);
+}
+
+.container .input.email {
+  margin-bottom: 20px;
+}
+
+.container .input.password {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.container .input.password .icon {
+  position: absolute;
+  right: 16px;
+  top: 43px;
+  color: rgba(3, 6, 23, 0.6);
+  cursor: pointer;
+}
+
+.container .recall-forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.container .recall-forget label {
+  color: rgba(248, 250, 252, 0.8);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container .recall-forget input {
+  margin-right: 4px;
+}
+
+.container .recall-forget a {
+  color: rgba(248, 250, 252, 0.8);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+.container button {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  background: #003db4;
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.36px;
+  transition: all 0.3s ease;
+  margin-bottom: 24px;
+}
+
+.container button:hover {
+  background-color: #002594;
+}
+
+.container .signup-link {
+  text-align: center;
+  color: rgba(248, 250, 252, 0.8);
+}
+
+.container .signup-link a {
+  color: #f8fafc;
+  font-weight: 600;
+}
